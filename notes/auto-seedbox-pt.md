@@ -2,6 +2,7 @@
 
 > 上游：https://github.com/yimouleng/Auto-Seedbox-PT （MIT，Shell，⭐138）
 > 本地参考副本：`<工作区>/refs/Auto-Seedbox-PT/`（未纳入本仓库，避免 60MB+ 体积）
+> 仓库内快照：**[snapshots/auto-seedbox-pt/](../snapshots/auto-seedbox-pt/)** —— 核心脚本 + LICENSE + SHA-256，**上游删库也能用**
 > 记录时间：2026-11-06
 
 ## 是什么
@@ -43,3 +44,13 @@ bash <(wget -qO- https://raw.githubusercontent.com/yimouleng/Auto-Seedbox-PT/mai
 ## 取舍记录
 
 没有把代码拷进本仓库：上游 60 MB+（含 qB 二进制与备份包），且是 MIT 第三方项目，拷贝进来只会让 clone 变慢、还容易和上游不同步。需要源码时直接 clone 上游或看本地 `refs/` 副本。
+
+
+## 快照说明
+
+本仓库的 `snapshots/auto-seedbox-pt/` 保存了能独立运行的核心文件（部署主脚本、应用脚本、两个发种辅助 js、LICENSE、上游 README），并记录了 commit `8716b2d7f5d4` 与每个文件的 SHA-256。
+
+没有收进快照的：`qBittorrent/` 目录与 `vt-backups.zip`（上百 MB 的二进制与备份包，需要时重新下载即可）。
+
+换机器或上游消失时，直接 `sudo bash snapshots/auto-seedbox-pt/auto_seedbox_pt.sh <参数>` 即可，参数与原版一致。
+
