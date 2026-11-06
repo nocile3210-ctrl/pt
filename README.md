@@ -1,4 +1,4 @@
-﻿# PT 工具箱
+# PT 工具箱
 
 个人 PT（Private Tracker）相关的脚本与工具合集。每个工具一个子目录，互不依赖。
 
@@ -21,6 +21,16 @@
 
 详细文档见 [tracker-studio/README.md](tracker-studio/README.md)。
 
+
+## 资料
+
+站点规则、经验类笔记。
+
+| 文档 | 内容 |
+|---|---|
+| [notes/seedbox-limits.md](notes/seedbox-limits.md) | 24 个 PT 站点的盒子（seedbox）刷流限制对照：黑白盒、上传倍率、单种限速、超速惩罚、RSS 频率、发种要求、VIP 价格、HR |
+
 ## License
 
 MIT
+
