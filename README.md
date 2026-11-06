@@ -29,8 +29,10 @@
 | 文档 | 内容 |
 |---|---|
 | [notes/seedbox-limits.md](notes/seedbox-limits.md) | 24 个 PT 站点的盒子（seedbox）刷流限制对照：黑白盒、上传倍率、单种限速、超速惩罚、RSS 频率、发种要求、VIP 价格、HR |
+| [notes/auto-seedbox-pt.md](notes/auto-seedbox-pt.md) | Auto-Seedbox-PT 参考笔记：qB(v4/v5)+Vertex+FileBrowser 一键部署，Mode 1/2 调优、SSD/HDD 自适应（第三方，MIT） |
 
 ## License
 
 MIT
+
 
